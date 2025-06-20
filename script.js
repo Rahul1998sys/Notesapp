@@ -33,6 +33,7 @@ notesContainer.addEventListener('click', (e) => {
     if (e.target.tagName === 'IMG') {
         e.target.parentElement.remove();
         updateStorage();
+        
     }
 });
 
